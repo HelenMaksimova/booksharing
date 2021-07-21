@@ -1,0 +1,92 @@
+body {
+    background: url("../img/catalog_page.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog_menu {
+    min-width: 300px;
+    height: 100%;
+    background-color: rgb(75, 69, 83, 0.8);
+    margin: 0 30px 80px 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.catalog_category {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-style: normal; 
+    font-weight: normal;
+}
+
+.catalog_category:hover {
+    text-decoration: underline;
+}
+
+.catalog_content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.catalog_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgb(75, 69, 83, 0.8);
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+
+.catalog_card a:hover {
+    text-decoration: underline;
+}
+
+.catalog_card:hover {
+    border: 2px solid rgb(148, 137, 156);
+}
+
+.card_title {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #F5EEAB;
+    font-style: normal; 
+    font-weight: normal;
+}
+
+.card_author {
+    text-align: center;
+    padding-bottom: 10px;
+    font-style: normal; 
+    font-weight: normal;
+}
+
+.card_image {
+    height: 180px;
+}
+
+.card_count {
+    margin-top: 10px;
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal;
+    color: #F5EEAB;
+}
+
+.card_cities {
+    font-size: 14px;
+    text-align: center;
+    font-style: normal; 
+    font-weight: normal;
+}

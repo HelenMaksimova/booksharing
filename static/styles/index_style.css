@@ -1,0 +1,26 @@
+.main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    margin-top: 100px;
+    font-family: 'belladona';
+    font-size: 144px;
+    letter-spacing: 0.2em;
+}
+
+.slogan_title {
+    margin-top: 50px;
+    font-size: 64px;
+    color: #000000;
+}
+
+.slogan_text {
+    max-width: 950px;
+    font-size: 36px;
+    color: #4D4C4C;
+    margin: 0 auto;
+}

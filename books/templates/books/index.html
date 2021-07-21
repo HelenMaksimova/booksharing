@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksharing</title>
+    <link rel="stylesheet" href="{% static 'styles/main_style.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/index_style.css' %}">
+</head>
+
+<body>
+    <div class="header header_and_footer">
+        <div class="menu header_elements">
+            <a class="menu_point" href="{% url 'index' %}">Главная</a>
+            <a class="menu_point" href="#">Каталог книг</a>
+        </div>
+        <div class="authorization header_elements">
+            <a class="auth_point" href="#"><img src="{% static 'img/account_box.svg' %}" alt=""
+                    class="user_box">Зарегистрироваться</a>
+            <a class="auth_point" href="#"><img src="{% static 'img/account_circle.svg' %}" alt="" class="user_box">Войти</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">
+            BOOKSHARING
+        </div>
+        <div class="slogan_title">
+            Подарите ненужным книгам новую жизнь!
+        </div>
+        <div class="slogan_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Etiam consectetur lobortis dui, et iaculis mi ultrices vitae.
+            Donec posuere finibus ultrices.
+            Quisque lectus dui, blandit non lorem ut, auctor vestibulum arcu.
+            Nam eget nisi a massa tincidunt aliquam.
+        </div>
+    </div>
+    <div class="footer header_and_footer">
+        <p class="copyright">© HelenMaksimova 2021</p>
+    </div>
+</body>
+
+</html>
