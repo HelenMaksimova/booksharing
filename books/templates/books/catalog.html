@@ -8,20 +8,27 @@
 {% block page_content %}
     <div class="main">
             <div class="catalog_menu">
-                <a href="#">
-                    <h3 class="catalog_category" id="category_1">Детская литература</h3>
+                <a href="{% url 'books:index' %}">
+                    <h3 class="catalog_category">Все книги</h3>
                 </a>
+                {% for category in categories %}
+                <a href="{% url 'books:category_filter' category.id %}">
+                    <h3 class="catalog_category">{{ category.name }}</h3>
+                </a>
+                {% endfor %}
             </div>
             <div class="catalog_content">
+                {% for book in object_list %}
                 <div class="catalog_card">
                     <a href="{% url 'books:book' %}">
-                        <h3 class="card_title">Русолочка</h3>
+                        <h3 class="card_title">{{ book.name }}</h3>
                     </a>
-                    <h4 class="card_author">Ганс Христиан Андерсен</h4>
-                    <img src="" class="card_image">
-                    <p class="card_count">Книг в наличии: 5</p>
+                    <h4 class="card_author">{% for author in book.authors.all %} {{ author }} <br> {% endfor %}</h4>
+                    <img src="{{ book.image.url }}" class="card_image">
+                    <p class="card_count">Книг в наличии: {{ book.books_count }}</p>
                     <p class="card_cities">В городах:</p>
                 </div>
+                {% endfor %}
             </div>
         </div>
 {% endblock %}

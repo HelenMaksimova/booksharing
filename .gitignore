@@ -2,3 +2,4 @@ venv
 .idea
 __pycash__/
 */.env
+media
