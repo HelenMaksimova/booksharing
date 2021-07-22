@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksharing</title>
+    <link rel="stylesheet" href="{% static 'styles/main_style.css' %}">
+    {% block page_css %} {% endblock %}
+</head>
+
+<body>
+    <div class="header header_and_footer">
+        <div class="menu header_elements">
+            <a class="menu_point" href="{% url 'index' %}">Главная</a>
+            <a class="menu_point" href="{% url 'books:index' %}">Каталог книг</a>
+        </div>
+        <div class="authorization header_elements">
+            <a class="auth_point" href="#"><img src="{% static 'img/account_box.svg' %}" alt=""
+                    class="user_box">Зарегистрироваться</a>
+            <a class="auth_point" href="#"><img src="{% static 'img/account_circle.svg' %}" alt="" class="user_box">Войти</a>
+        </div>
+    </div>
+    {% block page_content %} {% endblock %}
+    <div class="footer header_and_footer">
+        <p class="copyright">© HelenMaksimova 2021</p>
+    </div>
+</body>
+
+</html>

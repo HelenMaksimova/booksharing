@@ -1,0 +1,36 @@
+{% extends 'books/base.html' %}
+{% load static %}
+
+{% block page_css %}
+    <link rel="stylesheet" href="{% static 'styles/book_page_style.css' %}">
+{% endblock %}
+
+{% block page_content %}
+    <div class="main">
+        <div class="book_sheet" id="book_info">
+            <h3 class="book_title">Русалочка</h3>
+            <h4 class="book_author">Ганс Христиан Андерсен</h4>
+            <div class="book_info_container">
+                <img class="book_img" src="./img_books/07.jpg" alt="">
+                <p class="book_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam consectetur lobortis dui, et iaculis mi ultrices vitae.
+                    Donec posuere finibus ultrices.
+                    Quisque lectus dui, blandit non lorem ut, auctor vestibulum arcu.
+                    Nam eget nisi a massa tincidunt aliquam.
+                </p>
+            </div>
+            <div class="book_details">
+                <p class="book_characteristic">ISBN:</p>
+                <p class="book_characteristic">Год издания:</p>
+                <p class="book_characteristic">Издательство:</p>
+                <p class="book_characteristic">Количество страниц:</p>
+                <p class="book_characteristic">Язык:</p>
+                <p class="book_characteristic">Категория:</p>
+                <p class="book_characteristic">Темы:</p>
+            </div>
+        </div>
+        <div class="book_sheet" id="book_deals"></div>
+        <div class="book_sheet" id="book_dealer_info"></div>
+    </div>
+{% endblock %}

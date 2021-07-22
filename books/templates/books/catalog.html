@@ -1,0 +1,30 @@
+{% extends 'books/base.html' %}
+{% load static %}
+
+{% block page_css %}
+    <link rel="stylesheet" href="{% static 'styles/catalog_style.css' %}">
+{% endblock %}
+
+{% block page_content %}
+    <div class="main">
+            <div class="catalog_menu">
+                <a href="#">
+                    <h3 class="catalog_category" id="category_1">Детская литература</h3>
+                </a>
+            </div>
+            <div class="catalog_content">
+                <div class="catalog_card">
+                    <a href="{% url 'books:book' %}">
+                        <h3 class="card_title">Русолочка</h3>
+                    </a>
+                    <h4 class="card_author">Ганс Христиан Андерсен</h4>
+                    <img src="" class="card_image">
+                    <p class="card_count">Книг в наличии: 5</p>
+                    <p class="card_cities">В городах:</p>
+                </div>
+            </div>
+        </div>
+{% endblock %}
+
+
+
