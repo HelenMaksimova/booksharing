@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'booksharing.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': getenv('DB_NAME'),
         'USER': getenv('DB_USERNAME'),
         'PASSWORD': getenv('DB_PASSWORD'),
