@@ -21,4 +21,5 @@ class CatalogListView(ListView):
 
     def get_queryset(self):
         category_id = self.kwargs.get('category_id')
-        return Book.objects.all() if not category_id else Book.objects.filter(category_id=category_id)
+        return Book.objects.select_related('category').prefetch_related('authors').all() if not category_id \
+            else Book.objects.select_related('category').prefetch_related('authors').filter(category_id=category_id)

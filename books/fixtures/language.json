@@ -1,1 +1,478 @@
-[{"model": "books.language", "pk": 1, "fields": {"name": "Китайский"}}, {"model": "books.language", "pk": 2, "fields": {"name": "Арабский"}}, {"model": "books.language", "pk": 3, "fields": {"name": "Хинди"}}, {"model": "books.language", "pk": 4, "fields": {"name": "Английский"}}, {"model": "books.language", "pk": 5, "fields": {"name": "Испанский"}}, {"model": "books.language", "pk": 6, "fields": {"name": "Бенгальский"}}, {"model": "books.language", "pk": 7, "fields": {"name": "Португальский"}}, {"model": "books.language", "pk": 8, "fields": {"name": "Русский"}}, {"model": "books.language", "pk": 9, "fields": {"name": "Японский"}}, {"model": "books.language", "pk": 10, "fields": {"name": "Немецкий"}}, {"model": "books.language", "pk": 11, "fields": {"name": "Корейский"}}, {"model": "books.language", "pk": 12, "fields": {"name": "Французский"}}, {"model": "books.language", "pk": 13, "fields": {"name": "Яванский"}}, {"model": "books.language", "pk": 14, "fields": {"name": "Телугу"}}, {"model": "books.language", "pk": 15, "fields": {"name": "Маратхи"}}, {"model": "books.language", "pk": 16, "fields": {"name": "Вьетнамский"}}, {"model": "books.language", "pk": 17, "fields": {"name": "Тамильский"}}, {"model": "books.language", "pk": 18, "fields": {"name": "Итальянский"}}, {"model": "books.language", "pk": 19, "fields": {"name": "Турецкий"}}, {"model": "books.language", "pk": 20, "fields": {"name": "Урду"}}, {"model": "books.language", "pk": 21, "fields": {"name": "Панджаби"}}, {"model": "books.language", "pk": 22, "fields": {"name": "Украинский"}}, {"model": "books.language", "pk": 23, "fields": {"name": "Гуджарати"}}, {"model": "books.language", "pk": 24, "fields": {"name": "Тайский"}}, {"model": "books.language", "pk": 25, "fields": {"name": "Польский"}}, {"model": "books.language", "pk": 26, "fields": {"name": "Малаялам"}}, {"model": "books.language", "pk": 27, "fields": {"name": "Каннада"}}, {"model": "books.language", "pk": 28, "fields": {"name": "Ория"}}, {"model": "books.language", "pk": 29, "fields": {"name": "Бирманский"}}, {"model": "books.language", "pk": 30, "fields": {"name": "Азербайджанский"}}, {"model": "books.language", "pk": 31, "fields": {"name": "Персидский"}}, {"model": "books.language", "pk": 32, "fields": {"name": "Сунданский"}}, {"model": "books.language", "pk": 33, "fields": {"name": "Пушту"}}, {"model": "books.language", "pk": 34, "fields": {"name": "Румынский"}}, {"model": "books.language", "pk": 35, "fields": {"name": "Бходжпури"}}, {"model": "books.language", "pk": 36, "fields": {"name": "Хауса"}}, {"model": "books.language", "pk": 37, "fields": {"name": "Майтхили"}}, {"model": "books.language", "pk": 38, "fields": {"name": "Сербохорватский"}}, {"model": "books.language", "pk": 39, "fields": {"name": "Авадхи"}}, {"model": "books.language", "pk": 40, "fields": {"name": "Узбекский"}}, {"model": "books.language", "pk": 41, "fields": {"name": "Йоруба"}}, {"model": "books.language", "pk": 42, "fields": {"name": "Нидерландский"}}, {"model": "books.language", "pk": 43, "fields": {"name": "Синдхи"}}, {"model": "books.language", "pk": 44, "fields": {"name": "Игбо"}}, {"model": "books.language", "pk": 45, "fields": {"name": "Амхарский"}}, {"model": "books.language", "pk": 46, "fields": {"name": "Оромо"}}, {"model": "books.language", "pk": 47, "fields": {"name": "Индонезийский"}}, {"model": "books.language", "pk": 48, "fields": {"name": "Тагальский"}}, {"model": "books.language", "pk": 49, "fields": {"name": "Непальский"}}, {"model": "books.language", "pk": 50, "fields": {"name": "Ассамский"}}, {"model": "books.language", "pk": 51, "fields": {"name": "Сараики"}}, {"model": "books.language", "pk": 52, "fields": {"name": "Себуанский"}}, {"model": "books.language", "pk": 53, "fields": {"name": "Венгерский"}}, {"model": "books.language", "pk": 54, "fields": {"name": "Читтагонг"}}, {"model": "books.language", "pk": 55, "fields": {"name": "Чжуанский"}}, {"model": "books.language", "pk": 56, "fields": {"name": "Шона"}}, {"model": "books.language", "pk": 57, "fields": {"name": "Мадурский"}}, {"model": "books.language", "pk": 58, "fields": {"name": "Сингальский"}}, {"model": "books.language", "pk": 59, "fields": {"name": "Марвари"}}, {"model": "books.language", "pk": 60, "fields": {"name": "Магахи"}}, {"model": "books.language", "pk": 61, "fields": {"name": "Харьянви"}}, {"model": "books.language", "pk": 62, "fields": {"name": "Греческий"}}, {"model": "books.language", "pk": 63, "fields": {"name": "Чешский"}}, {"model": "books.language", "pk": 64, "fields": {"name": "Чхаттисгархи"}}, {"model": "books.language", "pk": 65, "fields": {"name": "Фула"}}, {"model": "books.language", "pk": 66, "fields": {"name": "Дакхни"}}, {"model": "books.language", "pk": 67, "fields": {"name": "Малагасийский"}}, {"model": "books.language", "pk": 68, "fields": {"name": "Белорусский"}}]
+[
+  {
+    "model": "books.language",
+    "pk": 1,
+    "fields": {
+      "name": "Китайский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 2,
+    "fields": {
+      "name": "Арабский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 3,
+    "fields": {
+      "name": "Хинди"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 4,
+    "fields": {
+      "name": "Английский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 5,
+    "fields": {
+      "name": "Испанский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 6,
+    "fields": {
+      "name": "Бенгальский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 7,
+    "fields": {
+      "name": "Португальский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 8,
+    "fields": {
+      "name": "Русский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 9,
+    "fields": {
+      "name": "Японский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 10,
+    "fields": {
+      "name": "Немецкий"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 11,
+    "fields": {
+      "name": "Корейский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 12,
+    "fields": {
+      "name": "Французский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 13,
+    "fields": {
+      "name": "Яванский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 14,
+    "fields": {
+      "name": "Телугу"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 15,
+    "fields": {
+      "name": "Маратхи"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 16,
+    "fields": {
+      "name": "Вьетнамский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 17,
+    "fields": {
+      "name": "Тамильский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 18,
+    "fields": {
+      "name": "Итальянский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 19,
+    "fields": {
+      "name": "Турецкий"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 20,
+    "fields": {
+      "name": "Урду"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 21,
+    "fields": {
+      "name": "Панджаби"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 22,
+    "fields": {
+      "name": "Украинский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 23,
+    "fields": {
+      "name": "Гуджарати"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 24,
+    "fields": {
+      "name": "Тайский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 25,
+    "fields": {
+      "name": "Польский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 26,
+    "fields": {
+      "name": "Малаялам"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 27,
+    "fields": {
+      "name": "Каннада"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 28,
+    "fields": {
+      "name": "Ория"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 29,
+    "fields": {
+      "name": "Бирманский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 30,
+    "fields": {
+      "name": "Азербайджанский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 31,
+    "fields": {
+      "name": "Персидский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 32,
+    "fields": {
+      "name": "Сунданский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 33,
+    "fields": {
+      "name": "Пушту"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 34,
+    "fields": {
+      "name": "Румынский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 35,
+    "fields": {
+      "name": "Бходжпури"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 36,
+    "fields": {
+      "name": "Хауса"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 37,
+    "fields": {
+      "name": "Майтхили"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 38,
+    "fields": {
+      "name": "Сербохорватский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 39,
+    "fields": {
+      "name": "Авадхи"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 40,
+    "fields": {
+      "name": "Узбекский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 41,
+    "fields": {
+      "name": "Йоруба"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 42,
+    "fields": {
+      "name": "Нидерландский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 43,
+    "fields": {
+      "name": "Синдхи"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 44,
+    "fields": {
+      "name": "Игбо"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 45,
+    "fields": {
+      "name": "Амхарский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 46,
+    "fields": {
+      "name": "Оромо"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 47,
+    "fields": {
+      "name": "Индонезийский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 48,
+    "fields": {
+      "name": "Тагальский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 49,
+    "fields": {
+      "name": "Непальский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 50,
+    "fields": {
+      "name": "Ассамский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 51,
+    "fields": {
+      "name": "Сараики"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 52,
+    "fields": {
+      "name": "Себуанский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 53,
+    "fields": {
+      "name": "Венгерский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 54,
+    "fields": {
+      "name": "Читтагонг"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 55,
+    "fields": {
+      "name": "Чжуанский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 56,
+    "fields": {
+      "name": "Шона"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 57,
+    "fields": {
+      "name": "Мадурский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 58,
+    "fields": {
+      "name": "Сингальский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 59,
+    "fields": {
+      "name": "Марвари"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 60,
+    "fields": {
+      "name": "Магахи"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 61,
+    "fields": {
+      "name": "Харьянви"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 62,
+    "fields": {
+      "name": "Греческий"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 63,
+    "fields": {
+      "name": "Чешский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 64,
+    "fields": {
+      "name": "Чхаттисгархи"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 65,
+    "fields": {
+      "name": "Фула"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 66,
+    "fields": {
+      "name": "Дакхни"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 67,
+    "fields": {
+      "name": "Малагасийский"
+    }
+  },
+  {
+    "model": "books.language",
+    "pk": 68,
+    "fields": {
+      "name": "Белорусский"
+    }
+  }
+]
